@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"ITSecMedia/gfapigonnect"
+	"github.com/ITSecMedia/gfapigonnect"
 )
 
 func queryGravityFormsAPI(w http.ResponseWriter, r *http.Request) {
